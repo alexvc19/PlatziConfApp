@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_parrafo">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <TextView
+         android:id="@+id/tvTimeConferenceitem"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="00.00"
+         android:textColor="@color/colorAccent"
+         android:gravity="right|bottom"
+         android:textSize="30sp"
+         android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvAmitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A.M"
+                android:textColor="@color/colorAccent"
+                android:gravity="right|bottom"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/tvScheduleNameItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre de la conferencia"
+                android:textSize="@dimen/itemScheduleTitulo"
+                android:textColor="@color/colorPrimary"
+                android:ellipsize="end"
+                android:lines="1"></TextView>
+            <TextView
+                android:id="@+id/tvSchedulenamespeakeritem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Speaker Name"
+                android:textColor="@color/colorPrimary"
+                android:ellipsize="end"
+                android:lines="1"></TextView>
+            <TextView
+                android:id="@+id/tvTagItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Tag"
+                android:textColor="@color/colorAccent"
+                android:ellipsize="end"
+                android:lines="1"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"></View>
+
+</LinearLayout>

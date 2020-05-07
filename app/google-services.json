@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "844982107304",
+    "firebase_url": "https://celshopdesingapp.firebaseio.com",
+    "project_id": "celshopdesingapp",
+    "storage_bucket": "celshopdesingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844982107304:android:9f2687c6893afba7c1d69d",
+        "android_client_info": {
+          "package_name": "com.example.platziconf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844982107304-v219e4qr7469mv00p01b40gakginaa8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.platziconf",
+            "certificate_hash": "f91aed9e4643abf3ec90e54453087516d05aadf7"
+          }
+        },
+        {
+          "client_id": "844982107304-pm0nf5unco1omkiam30ifmu0sl6jnuvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-OA0XrtGup1DoNARgQaAmytZkoYzRWIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844982107304-pm0nf5unco1omkiam30ifmu0sl6jnuvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
